@@ -12,10 +12,10 @@ var b = jsboard.board({attach:"game", size:"5x5"});
 b.cell("each").style({width:"75px", height:"75px"});
 
 // setup pieces
-var piece_red_master    = jsboard.piece({text:redMaster, textIndent:"-9999px", background:"url('images/white.png') no-repeat", width:"50px", height:"50px", margin:"0 auto", color:"red"});
-var piece_red_pawn      = jsboard.piece({text:redPawn, textIndent:"-9999px", background:"url('images/red.png') no-repeat", width:"50px", height:"50px", margin:"0 auto", color:"red" });
-var piece_blue_master   = jsboard.piece({text:blueMaster, textIndent:"-9999px", background:"url('images/bknight.png') no-repeat", width:"50px", height:"50px", margin:"0 auto", color:"blue" });
-var piece_blue_pawn     = jsboard.piece({text:bluePawn, textIndent:"-9999px", background:"url('images/black.png') no-repeat", width:"50px", height:"50px", margin:"0 auto", color:"blue" });
+var piece_red_master    = jsboard.piece({text:redMaster, textIndent:"-9999px", background:"url('img/white.png') no-repeat", width:"50px", height:"50px", margin:"0 auto", color:"red"});
+var piece_red_pawn      = jsboard.piece({text:redPawn, textIndent:"-9999px", background:"url('img/red.png') no-repeat", width:"50px", height:"50px", margin:"0 auto", color:"red" });
+var piece_blue_master   = jsboard.piece({text:blueMaster, textIndent:"-9999px", background:"url('img/bknight.png') no-repeat", width:"50px", height:"50px", margin:"0 auto", color:"blue" });
+var piece_blue_pawn     = jsboard.piece({text:bluePawn, textIndent:"-9999px", background:"url('img/black.png') no-repeat", width:"50px", height:"50px", margin:"0 auto", color:"blue" });
 
 // create pieces to place in DOM
 var pieces = [
